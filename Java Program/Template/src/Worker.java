@@ -1,7 +1,10 @@
+
 public abstract class Worker {
 
 	String name;
-
+	
+	
+	
 	public Worker(String name) {
 		super();
 		this.name = name;
@@ -12,13 +15,12 @@ public abstract class Worker {
 	}
 
 	public abstract void work();
-
 	public abstract void showEarning();
-
+	
 	public void goSleep() {
 		System.out.println(name + " is sleeping");
 	}
-
+	
 	public void routine() {
 		wakeUp();
 		work();

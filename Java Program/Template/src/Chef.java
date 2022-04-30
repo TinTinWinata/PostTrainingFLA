@@ -1,7 +1,7 @@
 import java.util.Random;
 
-public class Chef extends Worker {
-
+public class Chef extends Worker{
+	
 	int cooked;
 
 	public Chef(String name) {

@@ -1,9 +1,9 @@
 import java.util.Random;
 
-public class Police extends Worker {
+public class Police extends Worker{
 
 	int solved;
-
+	
 	public Police(String name) {
 		super(name);
 	}
