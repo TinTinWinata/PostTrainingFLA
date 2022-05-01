@@ -1,0 +1,44 @@
+Singleton
+- bikin 1 instance aja yang di pake di setiap class
+
+State
+- aktifitas yang dilakukan per state 
+
+Factory
+- bikin abstract class
+
+Mediator
+- Bikin room chat
+- Mediator komunikasi antar orang 	
+
+Observer
+- notification
+- shop mengandung vector class user
+- notify dari shop 
+
+Facade
+- Class yang ribet kita bikin simple pake 1 class tambahan
+
+
+User
+	
+- order (waiter name)
+- wait food
+- wait food (chef name)
+- wait food (waiter name)
+- eat
+
+Waiter
+- idle
+- take order (user name)
+- wait cook 
+- bring order (chef name)
+- serving food (user name)
+
+Chef
+- idle
+- cook (user name)
+- done (user name)
+
+
+
